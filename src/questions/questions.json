@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Sum Array",
+    "difficulty": "Easy",
+    "functionName": "sumArray",
+    "returnType": "int",
+    "parameters": [{ "name": "nums", "type": "vector<int>" }],
+    "testCases": [
+      { "input": { "nums": [1, 2, 3] }, "expected": 6 },
+      { "input": { "nums": [10, 20] }, "expected": 30 }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Length of Last Word",
+    "difficulty": "Easy",
+    "functionName": "lengthOfLastWord",
+    "returnType": "int",
+    "parameters": [{ "name": "s", "type": "string" }],
+    "testCases": [
+      {
+        "input": { "s": "Hello World" },
+        "expected": 5
+      },
+      {
+        "input": { "s": "   fly me   to   the moon  " },
+        "expected": 4
+      }
+    ]
+  }
+]
