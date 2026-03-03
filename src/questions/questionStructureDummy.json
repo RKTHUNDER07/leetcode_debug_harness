@@ -1,0 +1,131 @@
+[
+  {
+    "id": 9999,
+    "title": "Dummy Universal Problem",
+    "difficulty": "Medium",
+
+    "isClassProblem": false,
+
+    "functionName": "solveProblem",
+
+    "returnType": {
+      "kind": "vector",
+      "of": {
+        "kind": "primitive",
+        "valueType": "int"
+      }
+    },
+
+    "parameters": [
+      {
+        "name": "nums",
+        "type": {
+          "kind": "vector",
+          "of": {
+            "kind": "primitive",
+            "valueType": "int"
+          }
+        }
+      },
+      {
+        "name": "matrix",
+        "type": {
+          "kind": "vector",
+          "of": {
+            "kind": "vector",
+            "of": {
+              "kind": "primitive",
+              "valueType": "int"
+            }
+          }
+        }
+      },
+      {
+        "name": "head",
+        "type": {
+          "kind": "linkedlist",
+          "valueType": "int"
+        }
+      },
+      {
+        "name": "root",
+        "type": {
+          "kind": "binarytree",
+          "valueType": "int"
+        }
+      },
+      {
+        "name": "flag",
+        "type": {
+          "kind": "primitive",
+          "valueType": "bool"
+        }
+      }
+    ],
+
+    "testCases": [
+      {
+        "input": {
+          "nums": [1, 2, 3],
+          "matrix": [
+            [1, 2],
+            [3, 4]
+          ],
+          "head": [1, 2, 3],
+          "root": [1, 2, 3, null, 4],
+          "flag": true
+        }
+      }
+    ]
+  },
+  {
+    "id": 10000,
+    "title": "Dummy Design Problem",
+    "difficulty": "Medium",
+
+    "isClassProblem": true,
+
+    "class": {
+      "name": "DummyClass",
+
+      "methods": [
+        {
+          "name": "DummyClass",
+          "returnType": null,
+          "parameters": []
+        },
+        {
+          "name": "add",
+          "returnType": {
+            "kind": "primitive",
+            "valueType": "void"
+          },
+          "parameters": [
+            {
+              "name": "x",
+              "type": {
+                "kind": "primitive",
+                "valueType": "int"
+              }
+            }
+          ]
+        },
+        {
+          "name": "get",
+          "returnType": {
+            "kind": "primitive",
+            "valueType": "int"
+          },
+          "parameters": []
+        }
+      ]
+    },
+
+    "testCases": [
+      {
+        "operations": ["DummyClass", "add", "add", "get"],
+        "arguments": [[], [5], [10], []]
+      }
+    ]
+  }
+]
